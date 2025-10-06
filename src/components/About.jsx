@@ -10,7 +10,7 @@ export default function About() {
   ]);
 
   const targetStats = [
-    { value: '500+', label: 'Satisfied Clients', icon: UserCheck },
+    { value: '100+', label: 'Satisfied Clients', icon: UserCheck },
     { value: '24/7', label: 'Support Available', icon: Shield },
     { value: '1+', label: 'Years Experience', icon: Star },
     { value: '100%', label: 'Licensed & Insured', icon: CheckCircle }
