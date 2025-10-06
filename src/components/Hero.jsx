@@ -85,7 +85,7 @@ const Hero = () => {
 
             <div className="absolute top-1/2 right-0 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md border border-orange-200/50 dark:border-orange-800/50 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 animate-float">
               <div className="text-center">
-                <div className="text-3xl font-bold bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">500+</div>
+                <div className="text-3xl font-bold bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">100+</div>
                 <div className="text-gray-600 dark:text-gray-300 text-sm font-medium">Happy Clients</div>
                 <div className="flex justify-center mt-2">
                   {[...Array(5)].map((_, i) => (

@@ -76,7 +76,7 @@ export default function Sectors() {
           
           <div className="text-center p-6 bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm rounded-2xl border border-white/50 dark:border-gray-700/50">
             <div className="text-3xl font-bold bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent mb-2">
-              500+
+              100+
             </div>
             <div className="text-gray-600 dark:text-gray-300 text-sm font-medium">Happy Clients</div>
           </div>
