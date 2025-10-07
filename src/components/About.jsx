@@ -136,6 +136,39 @@ export default function About() {
               })}
             </div>
 
+            {/* Accreditations Section */}
+            <div className="space-y-6 pt-8">
+              <h3 className="text-2xl font-bold text-center bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-200 bg-clip-text text-transparent">
+                Our Accreditations
+              </h3>
+              <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed max-w-xl mx-auto text-center">
+                James Security & Concierge proudly holds SIA Approved Contractor status for Security Guarding, Key Holding, Door Supervision, and Public Space CCTV, alongside NSI Gold for Manned Guarding and Keyholding. We are accredited with the Armed Forces Covenant, Disability Confident Committed, Supply Chain Sustainability School, SafeContractor Approved, and Fire Industry Association. These certifications reflect our commitment to delivering compliant, high-quality security solutions with operational excellence across corporate, healthcare, and residential sectors.
+              </p>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 max-w-5xl mx-auto">
+                <div className="text-center p-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <img src="/SIA.jpg" alt="SIA Approved Contractor" width="120" height="120" className="mx-auto mb-2" />
+                </div>
+                <div className="text-center p-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <img src="/NSI.png" alt="NSI Gold" width="120" height="120" className="mx-auto mb-2" />
+                </div>
+                <div className="text-center p-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <img src="/ARMED.png" alt="Armed Forces Covenant" width="120" height="120" className="mx-auto mb-2" />
+                </div>
+                <div className="text-center p-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <img src="/CD.png" alt="Disability Confident Committed" width="120" height="120" className="mx-auto mb-2" />
+                </div>
+                <div className="text-center p-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <img src="/Sustainability.png" alt="Supply Chain Sustainability School" width="120" height="120" className="mx-auto mb-2" />
+                </div>
+                <div className="text-center p-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <img src="/SafeContractor.jpg" alt="SafeContractor Approved" width="120" height="120" className="mx-auto mb-2" />
+                </div>
+                <div className="text-center p-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <img src="/FIA.jpg" alt="Fire Industry Association" width="120" height="120" className="mx-auto mb-2" />
+                </div>
+              </div>
+            </div>
+
             {/* CTA Button */}
             <div className="pt-4">
               <a 

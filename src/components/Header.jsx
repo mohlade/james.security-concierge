@@ -26,7 +26,7 @@ const Header = () => {
           <div className="flex items-center relative group">
             <a href="#home" className="flex items-center">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
-                JAMES.
+                JAMES
               </h1>
               <p className="text-sm text-orange-600 -mt-1 font-medium ml-2">
                 Security/Concierge
