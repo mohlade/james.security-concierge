@@ -159,7 +159,7 @@ export default function Footer() {
                     <div className="text-sm font-medium text-white group-hover:text-orange-400 transition-colors">
                       Phone
                     </div>
-                    <div className="text-sm">+44 (0) 79 8489 0730</div>
+                    <div className="text-sm">+44 (0) 20 3152 0313</div>
                   </div>
                 </a>
 
@@ -175,7 +175,7 @@ export default function Footer() {
                     <div className="text-sm font-medium text-white group-hover:text-orange-400 transition-colors">
                       Email
                     </div>
-                    <div className="text-sm">admin@jamessecurity.co.uk</div>
+                    <div className="text-sm">enquiries@jamessecurity.co.uk</div>
                   </div>
                 </a>
 

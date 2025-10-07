@@ -37,8 +37,14 @@ const Hero = () => {
             </h1>
 
             <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl mt-6">
-  Partnering with forward-thinking organizations across corporate, educational, healthcare, and residential sectors, James Security & Concierge provides integrated security and concierge solutions engineered for operational excellence. Our full-spectrum services encompass strategic risk assessment, advanced technological deployments including biometric access control and AI-enhanced surveillance, and white-glove concierge support that elevates the client experience. With over a decade of proven expertise, we deliver measurable security outcomes while maintaining seamless operational continuity for your organization.
-</p>
+              Partnering with forward-thinking organizations across corporate, educational, healthcare, and residential sectors, James Security & Concierge provides integrated security and concierge solutions engineered for operational excellence. Our full-spectrum services encompass strategic risk assessment, advanced technological deployments including biometric access control and AI-enhanced surveillance, and white-glove concierge support that elevates the client experience. With over a decade of proven expertise, we deliver measurable security outcomes while maintaining seamless operational continuity for your organization.
+            </p>
+
+            <div className="inline-flex items-center bg-orange-100 dark:bg-orange-900/20 px-4 py-2 rounded-full text-orange-600 dark:text-orange-400 font-semibold mt-4">
+              <a href="https://www.gov.uk/government/organisations/security-industry-authority" target="_blank" className="text-sm hover:underline">
+                SIA Approved Contractor
+              </a>
+            </div>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <a

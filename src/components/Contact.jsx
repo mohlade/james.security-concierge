@@ -9,15 +9,15 @@ export default function Contact() {
     { 
       icon: Phone, 
       label: 'Phone', 
-      value: '+44 (0) 79 8489 0730', 
-      href: 'tel:+447984890730',
+      value: '+44 (0) 20 3152 0313', 
+      href: 'tel:+442031520313',
       description: 'Available during business hours'
     }, 
     { 
       icon: Mail, 
       label: 'Email', 
-      value: 'admin@jamessecurity.co.uk', 
-      href: 'mailto:admin@jamessecurity.co.uk',
+      value: 'enquiries@jamessecurity.co.uk', 
+      href: 'mailto:enquiries@jamessecurity.co.uk',
       description: 'Response within 24 hours'
     }, 
     { 
@@ -220,8 +220,8 @@ export default function Contact() {
               icon: Phone,
               title: 'Call Us Now',
               subtitle: 'Immediate assistance',
-              action: 'Call +44 (0) 79 8489 0730',
-              href: 'tel:+447984890730',
+              action: 'Call +44 (0) 20 3152 0313',
+              href: 'tel:+442031520313',
               color: 'from-blue-500 to-blue-600'
             },
             {
@@ -229,7 +229,7 @@ export default function Contact() {
               title: 'Email Us',
               subtitle: 'Detailed inquiries',
               action: 'Send Email',
-              href: 'mailto:admin@jamessecurity.co.uk',
+              href: 'mailto:enquiries@jamessecurity.co.uk',
               color: 'from-green-500 to-green-600'
             },
             {
