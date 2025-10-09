@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Menu } from 'lucide-react';
-// Logo import removed
+import { X, Menu, Mail, Phone } from 'lucide-react';
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -35,19 +34,38 @@ const Header = () => {
             <div className="absolute -inset-2 bg-gradient-to-r from-orange-500/10 to-orange-600/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
           </div>
 
-          <ul className="hidden md:flex items-center space-x-8">
-            {['Home', 'Services', 'Sectors', 'About', 'Contact'].map((item, index) => (
-              <li key={index}>
-                <a
-                  href={`#${item.toLowerCase()}`}
-                  className="relative text-gray-700 hover:text-orange-600 transition-colors duration-300 py-2 px-1 group"
-                >
-                  {item}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-orange-500 to-orange-600 group-hover:w-full transition-all duration-300"></span>
-                </a>
-              </li>
-            ))}
-          </ul>
+          {/* Desktop Navigation and Contact Info */}
+          <div className="hidden md:flex items-center space-x-8">
+            <ul className="flex items-center space-x-8">
+              {['Home', 'Services', 'Sectors', 'About', 'Contact'].map((item, index) => (
+                <li key={index}>
+                  <a
+                    href={`#${item.toLowerCase()}`}
+                    className="relative text-gray-700 hover:text-orange-600 transition-colors duration-300 py-2 px-1 group"
+                  >
+                    {item}
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-orange-500 to-orange-600 group-hover:w-full transition-all duration-300"></span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <div className="flex items-center space-x-4">
+              <a
+                href="tel:+1234567890"
+                className="flex items-center text-gray-700 hover:text-orange-600 transition-colors duration-300"
+              >
+                <Phone size={16} className="mr-1" />
+                <span>+44 (0) 20 3152 0313</span>
+              </a>
+              <a
+                href="mailto:info@jamessecurity.com"
+                className="flex items-center text-gray-700 hover:text-orange-600 transition-colors duration-300"
+              >
+                <Mail size={16} className="mr-1" />
+                <span>enquiries@jamessecurity.co.uk</span>
+              </a>
+            </div>
+          </div>
 
           {/* Mobile menu button only */}
           <button
@@ -61,7 +79,7 @@ const Header = () => {
         {/* Mobile Menu */}
         <div
           className={`md:hidden transition-all duration-300 overflow-hidden ${
-            isMobileMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
+            isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
           }`}
         >
           <div className="py-4 bg-white/95 backdrop-blur-md rounded-b-xl border-t border-orange-200/20">
@@ -75,6 +93,24 @@ const Header = () => {
                 {item}
               </a>
             ))}
+            <div className="px-4 py-3 border-t border-orange-200/20">
+              <a
+                href="tel:+1234567890"
+                className="flex items-center px-4 py-3 text-gray-700 hover:text-orange-600 hover:bg-orange-50 transition-all duration-300"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <Phone size={16} className="mr-2" />
+                <span>+44 (0) 20 3152 0313</span>
+              </a>
+              <a
+                href="mailto:info@jamessecurity.com"
+                className="flex items-center px-4 py-3 text-gray-700 hover:text-orange-600 hover:bg-orange-50 transition-all duration-300"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <Mail size={16} className="mr-2" />
+                <span>enquiries@jamessecurity.co.uk</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
